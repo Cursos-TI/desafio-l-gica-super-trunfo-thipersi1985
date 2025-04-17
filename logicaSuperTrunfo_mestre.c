@@ -15,7 +15,7 @@ int main() {
     printf("Digite o nome do país: \n");
     scanf("%s", &pais1);
     printf("Digite o número de habitantes do país: \n");
-    scanf("%d", &pop1); //%u está especificando que o formato a ser lido é um número inteiro positivo
+    scanf("%d", &pop1); //%d está especificando que o formato a ser lido é um número inteiro
     printf("Digite a área do país em quilômetros quadrados, por favor, utilize apenas números, sem pontuação: \n");
     scanf("%f", &area1); //%f está especificando que o formato a ser lido é um número decimal
     printf("Digite o Produto Interno Bruto do país, por favor, utilize apenas números, sem pontuação: \n");
